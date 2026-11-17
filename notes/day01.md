@@ -1,24 +1,24 @@
 # Day 1 · 环境、第一个程序、Git
 
-日期：2026-11-17
+日期：2026-11-17  
 实际耗时：约 3 小时（比计划的 2 小时多，主要花在环境排错）
 
 ## 完成情况
 
 - [x] `java -version` / `javac -version` 都输出 17.0.21
 - [x] IDEA 里 Hello World 跑通（输出 `Hello World,java`，退出码 0）
-- [ ] 命令行 `javac` + `java` 自己亲手跑一遍
+- [x] 命令行 `javac` + `java` 自己亲手跑一遍
 - [x] GitHub 第一条 commit 已推送
 
 ## 环境清单（以后重装照着来）
 
-| 组件 | 版本 | 位置 |
-|---|---|---|
-| JDK | Temurin 17.0.21+9 | `D:\java`（`JAVA_HOME=D:\java\`） |
-| IDEA | 2025.3（统一安装包，30 天后自动回落免费版） | `C:\Program Files\JetBrains\` |
-| Git | 2.56.1.windows.1 | `C:\Program Files\Git\cmd` |
-| 项目 | `hello-java` | `C:\Users\Administrator\IdeaProjects\hello-java` |
-| 远程 | `https://github.com/pcswm/hello-java.git` | 分支 `main` |
+| 组件   | 版本                                        | 位置                                               |
+| ---- | ----------------------------------------- | ------------------------------------------------ |
+| JDK  | Temurin 17.0.21+9                         | `D:\java`（`JAVA_HOME=D:\java\`）                  |
+| IDEA | 2025.3（统一安装包，30 天后自动回落免费版）                | `C:\Program Files\JetBrains\`                    |
+| Git  | 2.56.1.windows.1                          | `C:\Program Files\Git\cmd`                       |
+| 项目   | `hello-java`                              | `C:\Users\Administrator\IdeaProjects\hello-java` |
+| 远程   | `https://github.com/pcswm/hello-java.git` | 分支 `main`                                        |
 
 ## 今天踩的坑（全部真实踩过）
 
@@ -40,11 +40,11 @@
 ## 今日总结（自己补 3 行）
 
 1. 今天最费时的不是写代码，是环境。
-2. ______
-3. ______
+2. 注意字符不要打错
+3. 细心
 
 ## 明日（Day 2）预告
 
-变量、8 种基本类型、类型转换、运算符。重点是把 7 个经典坑亲手跑一遍：
-`5/2`、`5.0/2`、`0.1+0.2`、`int` 溢出、`%` 负数、`i++ + ++i`。
+变量、8 种基本类型、类型转换、运算符。重点是把 7 个经典坑亲手跑一遍：  
+`5/2`、`5.0/2`、`0.1+0.2`、`int` 溢出、`%` 负数、`i++ + ++i`。  
 产出：`Pitfalls.java`、温度转换器、BMI 计算器。

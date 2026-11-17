@@ -1,3 +1,8 @@
+### Java 编译产物（命令行 javac 产生）###
+*.class
+*.jar
+*.war
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
